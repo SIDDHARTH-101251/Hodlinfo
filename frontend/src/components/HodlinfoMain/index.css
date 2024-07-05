@@ -1,0 +1,169 @@
+.logo-image {
+  width: 300px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo-image-container {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.react-countdown-circle-timer-text {
+  font-size: 48px;
+  font-weight: bold;
+  color: red;
+}
+
+.form-style {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
+}
+
+.select-1 {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #dadddf;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  padding: 8px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.select-2 {
+  width: 80px;
+  height: 36px;
+  border: 1px solid #dadddf;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  padding: 8px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.buy-btc-button {
+  width: 100px;
+  height: 36px;
+  border: 1px solid #dadddf;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #f8f9fa;
+  padding: 8px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+}
+
+.counter-telegram-button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  margin-top: 12px;
+  margin-bottom: 12px;
+}
+
+.connect-telegram-button {
+  width: 160px;
+  height: 36px;
+  border: 0px solid;
+  border-radius: 12px;
+  font-family: "Roboto";
+  font-size: 14px;
+  font-weight: bold;
+  color: #ffffff;
+  background-color: #6bcacb;
+  padding: 8px;
+  margin-right: 12px;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 12px;
+}
+
+.telegram-icon {
+  font-size: 18px;
+  margin-right: 5px;
+}
+
+input[type="checkbox"] {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+label {
+  cursor: pointer;
+  text-indent: -9999px;
+  width: 80px;
+  height: 36px;
+  background: #6bcacb;
+  display: block;
+  border-radius: 100px;
+  position: relative;
+}
+
+label:after {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 5px;
+  width: 26px;
+  height: 26px;
+  background: #fff;
+  border-radius: 90px;
+  transition: 0.3s;
+}
+
+input:checked + label {
+  background: grey;
+}
+
+input:checked + label:after {
+  left: calc(100% - 5px);
+  transform: translateX(-100%);
+}
+
+label:active:after {
+  width: 130px;
+}
+
+@media screen and (min-width: 768px) {
+  .logo-image-container {
+    width: 33%;
+    margin: 0;
+  }
+
+  .form-style {
+    width: 33%;
+    margin: 0;
+  }
+
+  .counter-telegram-button-container {
+    width: 33%;
+    margin: 0;
+  }
+}

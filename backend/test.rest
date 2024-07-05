@@ -1,0 +1,15 @@
+###
+
+GET http://localhost:1300/
+
+###
+
+###
+GET http://localhost:1300/data
+
+###
+
+###
+DELETE http://localhost:1300/delete 
+
+####
